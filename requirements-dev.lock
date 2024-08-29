@@ -9,3 +9,14 @@
 #   generate-hashes: false
 #   universal: true
 
+-e file:apps/app1
+-e file:packages/package
+colorama==0.4.6 ; sys_platform == 'win32'
+    # via pytest
+iniconfig==2.0.0
+    # via pytest
+packaging==24.1
+    # via pytest
+pluggy==1.5.0
+    # via pytest
+pytest==8.3.2

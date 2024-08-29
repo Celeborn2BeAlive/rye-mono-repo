@@ -11,4 +11,12 @@ requires-python = ">= 3.8"
 managed = true
 virtual = true
 universal = true
-dev-dependencies = []
+dev-dependencies = [
+    "pytest>=8.3.2",
+]
+
+[tool.rye.workspace]
+members = ["apps/*", "packages/*"]
+
+[tool.rye.scripts]
+app1 = { call = "app1" }

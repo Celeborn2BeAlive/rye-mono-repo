@@ -9,3 +9,5 @@
 #   generate-hashes: false
 #   universal: true
 
+-e file:apps/app1
+-e file:packages/package
