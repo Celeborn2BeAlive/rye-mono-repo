@@ -1,0 +1,14 @@
+[project]
+name = "rye-mono-repo"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "Celeborn2BeAlive", email = "laurent.noel.c2ba@gmail.com" }]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+universal = true
+dev-dependencies = []
