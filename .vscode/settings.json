@@ -2,6 +2,7 @@
   "python.testing.pytestArgs": [".", "-s"],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
+  "python.analysis.autoImportCompletions": true,
   "editor.formatOnSave": true,
   "files.exclude": {
     ".venv": true,
